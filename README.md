@@ -23,12 +23,21 @@
 5. Создать отдельный Pod с приложением multitool и убедиться с помощью `curl`, что из пода есть доступ до приложений из п.1.
 
 ## Решение
-
+> по пунктам 1-3
 ![localImage](./screen_VII.03_1.png)    
+> по пункту 4
+![localImage](./screen_VII.03_2.png) 
+> по пункту 5
+![localImage](./screen_VII.03_3.png) 
+
+Сделал с помощью IP-адресом, потому-что не понял каким-образом возникнуть сеть если у всех образов маска сети 32. 
+В просторах интернета есть примеры по символьным адресам, но как это реализуется информации не нашел. 
+Просидев ~6 часов над п.5 прошу дать подсказку или показать как это выполнить, например через [asciinema](https://asciinema.org/).
 
 ## Ссылки на файлы:
->[Pod](./conf/pod.yaml);    
->[Service](./conf/service.yaml);   
+>[Deploy](./conf/deploy_1.yaml);    
+>[Service](./conf/service_1.yaml);   
+>[Pod](./conf/pod.yaml).   
 
 ![localImage](./Yes.png)
 
@@ -42,10 +51,9 @@
 
 ## Решение
 
-![localImage](./screen_VII.03_1.png)    
+![localImage](./screen_VII.03_5.png)    
 
 ## Ссылки на файлы:
->[Pod](./conf/pod.yaml);    
->[Service](./conf/service.yaml);   
+>[Deploy](./conf/deploy_2.yaml);     
 
 ![localImage](./Yes.png)
